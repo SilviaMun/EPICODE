@@ -25,22 +25,22 @@ int main () {
 	    printf ("\n\nCome posso aiutarti?\n\n");
 	    menu ();
 	
-    	scanf (" %c", &scelta);
+    	    scanf (" %c", &scelta);
 	    getchar();
 	
 	    while (scelta != 'A' && scelta != 'a' && scelta != 'B' && scelta != 'b' && scelta != 'C' && scelta != 'c' && scelta != 'D' &&
 	    scelta != 'd' && scelta != 'E' && scelta != 'e' && scelta != 'F' && scelta != 'f' && scelta != 'G' && scelta != 'g' && scelta 
 	    != 'H' && scelta != 'h' && scelta != 'I' && scelta != 'i' && scelta != 'L' && scelta != 'l' ) {
-        printf("\nSeleziona un'opzione valida.\n");
-        menu();
-        scanf(" %c", &scelta);
-        getchar(); }
+            printf("\nSeleziona un'opzione valida.\n");
+            menu();
+            scanf(" %c", &scelta);
+            getchar(); }
 	
 	    switch (scelta) {
 	    case 'A':
 	    case 'a':
-	        somma();
-	        break;
+	    somma();
+	    break;
 	    case 'B':
 	    case 'b':
             sottrai();
@@ -49,38 +49,38 @@ int main () {
 	    case 'c':
             moltiplica();
             break;
-        case 'D':
+            case 'D':
 	    case 'd':
             dividi();
             break;
-        case 'E':
+            case 'E':
 	    case 'e':
             ins_string();
             break;
-        case 'F':
+            case 'F':
 	    case 'f':
             potenza();
             break;
-        case 'G':
+            case 'G':
 	    case 'g':
             radice();
             break;
-        case 'H':
+            case 'H':
 	    case 'h':
             log_dec();
             break;
-        case 'I':
+            case 'I':
 	    case 'i':
             log_nat();
             break;
-        case 'L':
+            case 'L':
 	    case 'l':
-	    	printf("Alla prossima!");
-		    return 0;
-        default:  
-        printf("\nSeleziona un'opzione valida.\n");
+	    printf("Alla prossima!");
+	    return 0;
+            default:  
+            printf("\nSeleziona un'opzione valida.\n");
 	    break; }
-	}
+	    }
     
 return 0;
 
@@ -132,7 +132,7 @@ void sottrai () {
     
 //funzione moltiplicazione
 void moltiplica () {
-	float a, b = 0.0f;
+    float a, b = 0.0f;
     printf ("\nInserisci i due numeri da moltiplicare:\n");
     scanf ("%f", &a);
     scanf ("%f", &b);
@@ -167,7 +167,7 @@ void dividi () {
 
 //funzione lunghezza stringa
 void ins_string () {
-	char stringa[50];
+    char stringa[50];
     printf ("\nInserisci la stringa:\n");
     fgets(stringa, 50, stdin);
     printf("\nHai inserito una stringa lunga %ld caratteri\n", strlen(stringa)); }
