@@ -241,6 +241,7 @@ def main():
             scelte[scelta]()
         elif scelta == "E" or scelta == "e":
             print("Alla prossima!")
+            break
         else:
             print("Seleziona un'opzione valida.")
 
