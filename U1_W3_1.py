@@ -81,7 +81,7 @@ def circolare_2basi():
 def corona_circolare():
     r = float(input("Inserisci il raggio interno della corona circolare: "))
     R = float(input("Inserisci il raggio esterno della corona circolare: "))
-    perimetro = 2 * math.pi * ()
+    perimetro = 2 * math.pi * (r + R)
 
     if perimetro.is_integer():
         perimetro = int(perimetro)
