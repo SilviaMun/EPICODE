@@ -44,7 +44,7 @@ def main():
         {"nome": "Edoardo Ceriani", "voto": 87},
         {"nome": "Claudio La Torre", "voto": 69},
         {"nome": "Alessio Gorgoglione", "voto": 83},
-       #{"nome": "Silvia Munafo", "voto": 81},
+        #{"nome": "Silvia Munafo", "voto": 81},
         {"nome": "Pasquale Morgillo", "voto": 82},
         {"nome": "Bartolomeo Lapiello", "voto": 67},
         {"nome": "Valerio Mendolia", "voto": 79},
