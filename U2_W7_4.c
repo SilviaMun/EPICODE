@@ -7,7 +7,7 @@ int main() {
     printf("\nYour username is: %s\n", buffer);
     
     // Segmentation fault
-    buffer[20] = 'A';
+    buffer[30] = 'A';
     
     return 0;
 }
