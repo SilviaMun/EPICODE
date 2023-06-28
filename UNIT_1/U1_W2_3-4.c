@@ -1,5 +1,5 @@
 #include <stdio.h>
-.#include <string.h>
+#include <string.h>
 
 void menu();
 void nome_giocatore();
