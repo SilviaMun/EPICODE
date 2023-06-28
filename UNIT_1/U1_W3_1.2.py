@@ -1,5 +1,5 @@
 import math
-from U1_W3_1 import *
+from U1_W3_1.1 import *
 
 #Introduzione
 def intro():
